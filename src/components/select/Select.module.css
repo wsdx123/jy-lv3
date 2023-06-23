@@ -1,0 +1,46 @@
+.title {
+  font-weight: 800;
+  font-size: xx-large;
+  margin: 20px 0;
+}
+
+.select {
+  background-color: #eee;
+  padding: 5px;
+  width: 200px;
+}
+
+.openSelect {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.selectContainer {
+  position: relative;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectItem {
+  background-color: white;
+}
+.selectItem > button {
+  padding: 5px;
+  border: none;
+  width: 100%;
+  text-align: start;
+  cursor: pointer;
+  background-color: white;
+}
+
+.selectItem > button:hover {
+  background-color: lightgray;
+}
